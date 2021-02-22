@@ -4,6 +4,8 @@ import SavedAppt from "../../Assets/Screenshots/savedAppt.png"
 import HomePage from "../../Assets/Screenshots/homepage.png"
 import QuestionPage from "../../Assets/Screenshots/questionpage.png"
 import FinalPage from "../../Assets/Screenshots/finalpage.png"
+import DoggieDashboard from "../../Assets/Screenshots/doggieDashboard.png"
+import HomepageDog from "../../Assets/Screenshots/homePageDog.png"
 
 class Portfolio extends Component {
     render() {
@@ -100,10 +102,10 @@ class Portfolio extends Component {
                     </ol>
                     <div class="carousel-inner">
                       <div class="carousel-item active">
-                        <img src="./Assets/Screenshots/homePageDog.png" class="d-block w-100" alt="..."/>
+                        <img src={HomepageDog} class="d-block w-100" alt="..."/>
                       </div>
                       <div class="carousel-item">
-                        <img src="./Assets/Screenshots/doggieDashboard.png" class="d-block w-100" alt="..."/>
+                        <img src={DoggieDashboard} class="d-block w-100" alt="..."/>
                       </div>
                     </div>
                     <a class="carousel-control-prev" href="#carouselExampleIndicators2" role="button" data-bs-slide="prev">
