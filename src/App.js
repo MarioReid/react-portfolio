@@ -1,3 +1,4 @@
+import Header from "./components/Header/Header"
 import React from 'react';
 import {
   BrowserRouter as Router,
@@ -15,7 +16,7 @@ import Portfolio from "./components/Portfolio/Portfolio"
 function App() {
   return (
     <Router>
-      <Navbar/>
+      <Header/>
       <Switch>
           <Route path="/contact">
               <Contact/>
