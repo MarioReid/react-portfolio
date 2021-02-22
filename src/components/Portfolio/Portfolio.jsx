@@ -1,4 +1,9 @@
 import React, { Component } from 'react';
+import BudgetTracker from "../../Assets/Screenshots/budget_tracker.png"
+import SavedAppt from "../../Assets/Screenshots/savedAppt.png"
+import HomePage from "../../Assets/Screenshots/homepage.png"
+import QuestionPage from "../../Assets/Screenshots/questionpage.png"
+import FinalPage from "../../Assets/Screenshots/finalpage.png"
 
 class Portfolio extends Component {
     render() {
@@ -35,13 +40,13 @@ class Portfolio extends Component {
                   </ol>
                   <div class="carousel-inner">
                     <div class="carousel-item active">
-                      <img src="./Assets/Screenshots/homepage.png" class="d-block w-100" alt="..."/>
+                      <img src={HomePage} class="d-block w-100" alt="..."/>
                     </div>
                     <div class="carousel-item">
-                      <img src="./Assets/Screenshots/questionpage.png" class="d-block w-100" alt="..."/>
+                      <img src={QuestionPage} class="d-block w-100" alt="..."/>
                     </div>
                     <div class="carousel-item">
-                      <img src="./Assets/Screenshots/finalpage.png" class="d-block w-100" alt="..."/>
+                      <img src={FinalPage} class="d-block w-100" alt="..."/>
                     </div>
                   </div>
                   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
@@ -66,7 +71,8 @@ class Portfolio extends Component {
             </div>
             <div class = "row project">
               <div class="col-lg-6 project">
-                <img src="./Assets/Screenshots/savedAppt.png" class ="img-thumbnail w-100" alt="Day Planner Picture Pic"/>
+                <img 
+                src={SavedAppt} class ="img-thumbnail w-100" alt="Day Planner Picture Pic"/>
               </div>
             </div> 
 
@@ -122,7 +128,10 @@ class Portfolio extends Component {
               </div>
               <div class = "row project">
                 <div class="col-lg-6 project">
-                  <img src="./Assets/Screenshots/budget_tracker.png" class ="img-thumbnail w-100" alt="Day Planner Picture Pic"/>
+                  <img
+                    class="img-thumbnail w-100"
+                    src={BudgetTracker}
+                    alt="Budget Tracker Picture"/>
                 </div>
               </div> 
 
