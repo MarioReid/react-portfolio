@@ -47,7 +47,7 @@ class About extends Component {
               Telephone: 678-570-6647
             </p>
             <p>
-              Email: <a href="mario.reid@gmail.com">mario.reid@gmail.com</a>
+              Email: <a href="mario.reid@gmail.com">mario.reid83@gmail.com</a>
             </p>
             <p>
               Github:
